@@ -1,3 +1,3 @@
-#This Repository Conatains My Own Cheet Sheets
+# This Repository Conatains My Own Cheet Sheets
 
-- [postgresql](postgresql)
+- [PostgreSQL Cheatsheet](postgresql)

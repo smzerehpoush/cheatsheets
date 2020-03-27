@@ -1,7 +1,12 @@
 Postgresql Cheat Sheet
 
-connect 
-```
+### connect 
+```sql
 psql -U $USERNAME -h $HOST -p $PORT -d $DATABASE
-
+```
+### disconnect
+```sql
+\q
+\!
+quit
 ```
