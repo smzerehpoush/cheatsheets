@@ -115,10 +115,22 @@ SELECT * FROM COMPANY LIMIT 3 OFFSET 2;
   5 | David |  27 | Texas     |  85000
 (3 rows)
 ```
-# create view s
+# create view
 ```sql
 create view user_type_report AS
 select upper(user_type) as USER_TYPE, count(user_type) as count
 from public.user_account
 group by user_type;
+```
+# grant privilege
+```sql
+GRANT privilege [, ...]
+ON object [, ...]
+TO { PUBLIC | GROUP group | username }
+```
+# revoke privilege
+```sql
+REVOKE privilege [, ...]
+ON object [, ...]
+FROM { PUBLIC | GROUP groupname | username }
 ```
